@@ -78,34 +78,6 @@ The model is evaluated using a #ConfusionMatrix and a detailed #ClassificationRe
 Given a product, the system recommends the top n most similar products based on cosine similarity of their embeddings.
 
 
-Here’s your content converted into GitHub-friendly hashtags for section titles and key points:
-
-markdown
-Copy code
-# Product Classification and Recommendation System 📊🛍️
-
-## #Overview
-This project focuses on two key functionalities:
-
-1. **#ProductClassification**: Classifies products into subcategories based on their descriptions using Logistic Regression and TF-IDF vectorization.
-2. **#SimilarProductRecommendation**: Recommends products similar to a given product by leveraging Sentence Embeddings (via Hugging Face's SentenceTransformer) and Cosine Similarity.
-
----
-
-## #Features
-
-### 1. #ProductClassification
-- **#TFIDFVectorization**: Converts product descriptions into numerical vectors.
-- **#LogisticRegressionModel**: Trained to classify products into subcategories.
-- **#ModelEvaluation**: Assessed using a confusion matrix and classification report.
-- **#TabulatedResults**: Displays predictions in a structured, readable table using the `tabulate` library.
-
-### 2. #SimilarProductRecommendation
-- **#SentenceEmbeddings**: Uses Hugging Face's `SentenceTransformer` model to convert product descriptions into sentence embeddings.
-- **#CosineSimilarity**: Calculates the similarity between products based on their descriptions and recommends the most similar ones.
-
----
-
 ## #SetupAndInstallation
 
 1. **#CloneTheRepository**:
