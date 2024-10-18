@@ -55,29 +55,25 @@ This project focuses on two key functionalities:
 4. **Model Evaluation**:
    Evaluate the model using confusion matrices, classification reports, and tabulated results.
 
-2. #SimilarProductRecommendation
-#StepByStepGuide:
-#LoadDataset: Load the product dataset and extract necessary columns (product name and description).
+---
 
-#GenerateEmbeddings: Use Hugging Face's SentenceTransformer model to generate sentence embeddings from product descriptions.
+### 2. Similar Product Recommendation
 
-#CosineSimilarity: Compute the similarity between product descriptions and recommend the most similar products.
+#### Step-by-Step Guide:
 
-#OutputRecommendations: Provide a list of recommended products with similarity scores.
+1. **Load Dataset**:  
+   Load the product dataset and extract necessary columns (product name and description).
 
-#ResultsAndEvaluation
-1. #ClassificationResults:
-The classification model's predictions are displayed in a tabulated format with columns for:
+2. **Generate Embeddings**:  
+   Use Hugging Face's SentenceTransformer model to generate sentence embeddings from product descriptions.
 
-#ProductName
-#PredictedSubcategory
-#TrueSubcategory
-The model is evaluated using a #ConfusionMatrix and a detailed #ClassificationReport (precision, recall, F1-score).
+3. **Cosine Similarity**:  
+   Compute the similarity between product descriptions and recommend the most similar products.
 
-2. #ProductRecommendationResults:
-Given a product, the system recommends the top n most similar products based on cosine similarity of their embeddings.
+4. **Output Recommendations**:  
+   Provide a list of recommended products with similarity scores.
 
-
+---
 ## #SetupAndInstallation
 
 1. **#CloneTheRepository**:
@@ -93,23 +89,6 @@ Given a product, the system recommends the top n most similar products based on 
 
 ---
 
-## #Usage
-
-### 1. #ProductClassification
-
-#### #StepByStepGuide:
-
-1. **#LoadDataset**:
-   Load the product dataset (CSV format) and preprocess it by removing rows with missing values.
-
-2. **#TFIDFVectorization**:
-   Convert product descriptions into numerical features using TF-IDF vectorization.
-
-3. **#ModelTraining**:
-   Train a Logistic Regression model to classify products into subcategories.
-
-4. **#ModelEvaluation**:
-   Evaluate the model using confusion matrices, classification reports, and tabulated results.
 
 ## Prerequisites
 - **Python 3.x**
@@ -144,6 +123,23 @@ Given a product, the system recommends the top n most similar products based on 
     ```bash
     python Task2/product_recommendation.py
     ```
+
+---
+
+## Results and Evaluation
+
+### 1. Classification Results:
+- The classification model's predictions are displayed in a tabulated format with columns for:
+   - **Product Name**
+   - **Predicted Subcategory**
+   - **True Subcategory**
+
+- The model is evaluated using a **Confusion Matrix** and a detailed **Classification Report** (precision, recall, F1-score).
+
+### 2. Product Recommendation Results:
+- Given a product, the system recommends the top `n` most similar products based on cosine similarity of their embeddings.
+
+---
 
 ## Contact
 **Developer**: Shrestha  
