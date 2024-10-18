@@ -22,20 +22,6 @@ This project focuses on two key functionalities:
 
 ---
 
-## Installation
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/product-classification-recommendation.git
-    cd product-classification-recommendation
-    ```
-
-2. **Install the required dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
----
 
 ## Usage
 
@@ -72,20 +58,6 @@ This project focuses on two key functionalities:
 
 4. **Output Recommendations**:  
    Provide a list of recommended products with similarity scores.
-
----
-## #SetupAndInstallation
-
-1. **#CloneTheRepository**:
-    ```bash
-    git clone https://github.com/your-username/product-classification-recommendation.git
-    cd product-classification-recommendation
-    ```
-
-2. **#InstallDependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ---
 
